@@ -38,10 +38,10 @@ div.classList.add("box");
 h3.textContent = "Hours";
 div.appendChild(h3);
 
-const ul = document.createElement("ul");
+const ul = document.createElement("ul") as HTMLUListElement;
 
 timings.forEach((slot) => {
-  const li = document.createElement("li");
+  const li = document.createElement("li") as HTMLLIElement;
   li.textContent = `${slot.day}: ${slot.time}`;
   ul.appendChild(li);
 });

@@ -120,6 +120,9 @@ ul {
 /* Menu */
 
 .menu-section {
+  font-weight: bold;
+  padding-top: 3%;
+  padding-left: 5%;
   color: white;
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
@@ -127,12 +130,22 @@ ul {
   gap: 10px; /* optional spacing between grid items */
 }
 
-.menu-box {
-  border: 1px solid black;
+.menu-box img {
+  width: 30%;
+  height: 100;
 }
 
 /* contact */
 
+.contact {
+  color: white;
+}
+
+.contact h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 2%;
+}
 .cboxes {
   display: flex;
   flex-direction: column;
@@ -142,5 +155,5 @@ ul {
 }
 
 .cbox {
-  border: 1px solid black;
+  padding: 1%;
 }

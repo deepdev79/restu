@@ -26,6 +26,7 @@ const employees: {
 
 const h1 = document.createElement("h1") as HTMLHeadingElement;
 const contactDiv = document.createElement("div") as HTMLDivElement;
+contactDiv.classList.add("contact");
 h1.textContent = "Contact us";
 contactDiv.appendChild(h1);
 
