@@ -1,3 +1,7 @@
+import mmenu from "/mmenu.jpg";
+import smenu from "/smenu.jpg";
+import tnc from "/tnc.jpg";
+
 let h1 = document.createElement("h1") as HTMLHeadingElement;
 
 const menuDiv = document.createElement("div") as HTMLDivElement;
@@ -47,7 +51,8 @@ menuDiv.appendChild(div);
 div = document.createElement("div") as HTMLDivElement;
 let img = document.createElement("img") as HTMLImageElement;
 div.classList.add("menu-box");
-img.src = "../public/mmenu.jpg";
+img.src = mmenu;
+img.alt = "Main menu";
 div.appendChild(img);
 menuDiv.appendChild(div);
 
@@ -55,7 +60,8 @@ menuDiv.appendChild(div);
 div = document.createElement("div") as HTMLDivElement;
 img = document.createElement("img") as HTMLImageElement;
 div.classList.add("menu-box");
-img.src = "../public/smenu.jpg";
+img.src = smenu;
+img.alt = "Sides menu";
 div.appendChild(img);
 menuDiv.appendChild(div);
 
@@ -89,7 +95,8 @@ menuDiv.appendChild(div);
 div = document.createElement("div") as HTMLDivElement;
 img = document.createElement("img") as HTMLImageElement;
 div.classList.add("menu-box");
-img.src = "../public/tnc.jpg";
+img.src = tnc;
+img.alt = "Tea and Coffee";
 div.appendChild(img);
 menuDiv.appendChild(div);
 

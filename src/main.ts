@@ -7,7 +7,7 @@ import { menuDiv } from "./menu";
 import { contactDiv } from "./contact";
 
 const content = document.getElementById("content");
-content?.appendChild(contactDiv);
+content?.appendChild(mainDiv);
 
 function handleClick(event: MouseEvent): void {
   const option = (event.target as HTMLButtonElement).textContent;

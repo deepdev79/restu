@@ -11,7 +11,7 @@
 }
 body {
   height: 100vh;
-  background-image: url("../public/brkfst.jpg");
+  background-image: url("/brkfst.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
