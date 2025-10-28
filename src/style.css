@@ -116,3 +116,31 @@ ul {
   transition: 0s;
   transform: translate(0, 5%);
 }
+
+/* Menu */
+
+.menu-section {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  grid-template-rows: repeat(3, 1fr); /* 3 equal rows */
+  gap: 10px; /* optional spacing between grid items */
+}
+
+.menu-box {
+  border: 1px solid black;
+}
+
+/* contact */
+
+.cboxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.cbox {
+  border: 1px solid black;
+}
